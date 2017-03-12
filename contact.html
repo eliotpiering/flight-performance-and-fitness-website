@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Flight Performance and Fitness - Contact</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+</head>
+
+<body>
+  <section id="header"> <!-- Header -->
+    <nav>
+      <ul id="nav-menu">
+        <li id="nav-logo">
+          <a href="index.html">
+            <img src="assets/logo_blue.png" alt="flight-performance-and-fitness"/>
+          </a>
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Testimonials</a></li>
+      </ul>
+    </nav>
+    <div class="centered-content">
+      <h1>Get in touch</h1>
+    </div>
+  </section>
+
+  <section id="main"> <!-- Main -->
+    <div id="google-map">
+      <iframe
+          height="100%"
+          width="100%"
+          frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAwyOda8bwTONjidQwaqQ7d-3v8laA0d04&q=Flight+Perfomance+and+Fitness"
+      ></iframe>
+    </div>
+    <form id="contact-form" action="#" method="POST" enctype="multipart/form-data">
+      <div class="form-item">
+        <label class="grey-font" for="name">Your name</label><br /><br />
+        <input id="name" class="input" name="name" type="text" value="" size="30" />
+      </div>
+      <div class="form-item">
+        <label class="grey-font" for="email">Your email:</label><br /><br />
+        <input id="email" class="input" name="email" type="text" value="" size="30" />
+      </div>
+      <div class="form-item form-message">
+        <label class="grey-font" for="message">Your message:</label><br /><br />
+        <textarea id="message" class="input" name="message" rows="7" cols="70"></textarea>
+      </div>
+      <div class="form-item form-submit">
+        <input id="submit-button" type="submit" value="Contact" />
+      </div>
+    </form>
+  </section>
+
+  <section id="footer"> <!-- Footer -->
+    <div id="footer-content">
+      <p class="grey-font">
+        © 2017 FLIGHT PREFORMANCE & FITNESS
+        <br/>
+        225 Riverview Ave.
+        Newton, MA 02466
+        508-737-2165
+      </p>
+    </div>
+  </section>
+</body>
+</html>

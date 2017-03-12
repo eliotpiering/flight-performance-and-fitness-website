@@ -1,0 +1,231 @@
+/******************************************
+          Shared
+******************************************/
+body {
+	  font-family: Open Sans;
+	  font-style: normal;
+	  font-variant: normal;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    line-height: 2;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+.grey-font {
+    color: #888888;
+}
+
+.white-font {
+    color: white;
+}
+
+.bottom-top-margin {
+    margin: 8rem 0 8rem 0;
+}
+
+/******************************************
+          HEADER
+******************************************/
+#header {
+}
+#header-images {
+    background-image: url("assets/side_plank_cropped.png");
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+}
+
+#header-images h1 {
+    font-size: 4rem;
+    margin: 12% auto 0 auto;
+    width: 33%;
+}
+
+.filter {
+    background-color: rgba(50, 160, 206, 0.5);
+    height: 100%;
+}
+
+#nav-menu {
+    display: flex;
+    flex-direction: row;
+    height: 3.0rem;
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+}
+
+#nav-menu li {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    flex-grow: 1;
+    align-self: center;
+}
+
+li#nav-logo {
+    flex-grow: 4;
+    height: 100%
+}
+li#nav-logo img {
+    height: 100%;
+}
+
+#nav-menu li a {
+    text-decoration:none;
+    color: inherit;
+}
+
+#header-call-to-action {
+    font-size: 1.5rem;
+    display: flex;
+    height: 12rem;
+    justify-content: center;
+    background-color: #01aef0
+}
+#header-call-to-action span {
+    align-self: center;
+}
+#header-call-to-action a {
+    text-transform: uppercase;
+    text-decoration: none;
+    align-self: center;
+    border: 2px solid white;
+    margin: 0 1rem 0 1rem;
+    padding: 1rem;
+}
+
+
+/******************************************
+          MAIN
+******************************************/
+.centered-content {
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+.spread-options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.spread-options li {
+    width: 25%;
+    padding: 0 5% 2rem 5%;
+}
+
+
+/******************************************
+          FOOTER
+******************************************/
+#footer {
+    background-color: #191919;
+}
+
+#footer-image {
+    background-image: url("assets/platform_cropped.png");
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+}
+
+#footer-content {
+    text-align: center;
+    padding: 3rem 0 3rem 0;
+}
+
+/******************************************
+          About Page
+******************************************/
+#header .centered-content {
+    width: 45%;
+    margin: 5rem auto 0 auto;
+}
+
+#trainer-profiles {
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto 3rem auto;
+}
+
+#trainer-profiles li {
+    width: 20%;
+    padding: 0 5% 0 5%;
+}
+
+#trainer-profiles li h3 {
+    text-transform: uppercase;
+}
+
+#trainer-profiles li img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#about-content {
+    width: 66%;
+    margin: 3rem auto 3rem auto;
+    text-align: center;
+}
+
+/*************************************
+             Contact page
+*************************************/
+#google-map {
+    height: 35rem;
+}
+
+#contact-form {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto 3rem auto;
+}
+
+.form-item {
+    width: 30%;
+    flex: 1 1 auto;
+    padding: 2rem 2% 2rem 2%;
+}
+.form-item.form-message {
+    flex: 2 2 100%;
+}
+
+.form-item.form-submit {
+    flex: 2 2 100%;
+    /* align-self: flex-end; */
+}
+
+#contact-form label {
+    text-transform: uppercase;
+}
+
+#contact-form input, #contact-form textarea {
+    background-color: #eaeaea;
+    border: 0;
+    width:100%;
+}
+
+#contact-form input {
+    line-height: 2.5;
+}
+#submit-button {
+    width: 15%;
+}
+
+
